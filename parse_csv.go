@@ -6,7 +6,6 @@ import (
 	"os"
 )
 
-// ParseCSV parses a CSV file and returns a slice of maps representing the rows.
 func main() {
 	// Open the CSV file
 	file, err := os.Open("sample.csv")
